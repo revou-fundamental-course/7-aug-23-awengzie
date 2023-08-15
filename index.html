@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik Segitiga </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Welcome to WenCalc!</h1>
+    <h2>Kalkulasi nilai luas dan bangun datar segitiga</h2>
+
+    <form id="triangleForm">
+        <label for="sideA">Panjang Sisi A:</label>
+        <input type="number" id="sideA" required>
+        
+        <label for="sideB">Panjang Sisi B:</label>
+        <input type="number" id="sideB" required>
+        
+        <label for="sideC">Panjang Sisi C:</label>
+        <input type="number" id="sideC" required>
+        
+        <button type="submit">Hitung</button>
+    </form>
+
+    <div id="result">
+        <h2>Hasil:</h2>
+        <p>Luas Segitiga: <span id="areaResult"></span></p>
+        <p>Keliling Segitiga: <span id="perimeterResult"></span></p>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #215391;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:beige;
+}
+
+h2 {
+    text-align: center;
+    color:beige;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #127dd4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(17, 8, 77);
+    margin-bottom: 20px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    color:beige;
+}
+
+form input{
+    display: block;
+    margin-bottom: 10px;
+    color:rgba(4, 94, 99, 0.552);
+}
+
+form button {
+    display: block;
+    margin-bottom: 10px;
+    color:rgba(4, 94, 99, 0.552);
+
+}
+
+#result {
+    background-color: #3b93bf;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#result p {
+    text-align: center;
+    color: #b7eae2; /* Change this color to your preferred value */
+}
